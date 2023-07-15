@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes</title>
+    <style >
+        p{
+            color: red;
+        }
+
+        body{
+            background: url("https://www.pngmart.com/files/15/Falling-Money-PNG-Transparent-HD-Photo.png")
+             no-repeat fixed green center bottom;
+            background-size: 10em;
+            /*
+            background-image: url("https://www.pngmart.com/files/15/Falling-Money-PNG-Transparent-HD-Photo.png");
+            background-color: green;
+            background-size: 10em;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center bot
+            */
+        }
+
+        .blue{
+            color: blue;
+        }
+
+        .formadacao{
+            /* As cores podem ser escolhidas de 3 maneiras, nome padrão(red), código (#6A1D1D, rgb(185, 23, 23)...) */
+            /* Quando vc quer escolher uma fonte especifica vc pode colocar varias fontes, se em algum dispositivo
+            não for permetido ultilizar a fonte, ele ultilizará a seguinte que vc colocou */
+            color: #b91717;
+            font-size: 30px;
+            font-family: "Paladino Linotype", "Book Antigua", serif;
+        }
+
+        .tamanhoTexto{
+            /*
+            A 3 medidas de tamanho: 
+            px, em(relativo ao container pai[O body se vc não tiver definido nenhum]), e %(Tambem relativo)
+            Em o texto o default é:
+            16px
+            1em
+            100%
+            */
+            font-size: 32px;
+        }
+
+        .tamanhoTexto2{
+            font-size: 2em;
+        }
+
+        .tamanhoTexto3{
+            font-size: 200%;
+        }
+
+        .negrito{
+            /* A diferença de ultilizar font-weight: bold, font-style: italic... á ultilizar suas versões HTML é
+            que no CSS elas tevem ser ultilizada para uma questão decorativa enquanto, <strong> por exemplo,
+            é visto como algo importante que em um sistema para cegos irá ser falado em um tom mais alto*/
+            /*font-weight: bold, normal, 100 ate 900*/
+            font-weight: bold;
+        }
+
+        .italico{
+            font-style: italic;
+        }
+
+        .underline{
+            text-decoration: underline;
+        }
+
+        .linhacruzada{
+            text-decoration: line-through;
+        }
+
+        .linhaCima{
+            text-decoration: overline;
+        }
+    </style>
+</head>
+<body id="principal">
+    <a href="link.html">Links</a>
+    <h1>Teste</h1>
+    <p class="blue">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum justo ac efficitur convallis. 
+        In vel molestie libero, in mollis odio. Nullam ac arcu eget erat aliquet facilisis porttitor eget quam.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum justo ac efficitur convallis. 
+        In vel molestie libero, in mollis odio. Nullam ac arcu eget erat aliquet facilisis porttitor eget quam.
+    </p>
+    <h2 class="blue">Teste</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum justo ac efficitur convallis. 
+        In vel molestie libero, in mollis odio. Nullam ac arcu eget erat aliquet facilisis porttitor eget quam.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum justo ac efficitur convallis. 
+        In vel molestie libero, in mollis odio. Nullam ac arcu eget erat aliquet facilisis porttitor eget quam.
+    </p>
+
+    <h2>Fontes</h2>
+
+    <p class="formadacao">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum justo ac efficitur convallis. 
+        In vel molestie libero, in mollis odio. Nullam ac arcu eget erat aliquet facilisis porttitor eget quam.
+    </p>
+
+    <h2>Tamanho</h2>
+
+    <p class="tamanhoTexto">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum justo ac efficitur convallis. 
+        In vel molestie libero, in mollis odio. Nullam ac arcu eget erat aliquet facilisis porttitor eget quam.
+    </p>
+    <p class="tamanhoTexto2">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum justo ac efficitur convallis. 
+        In vel molestie libero, in mollis odio. Nullam ac arcu eget erat aliquet facilisis porttitor eget quam.
+    </p>
+    <p class="tamanhoTexto3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum justo ac efficitur convallis. 
+        In vel molestie libero, in mollis odio. Nullam ac arcu eget erat aliquet facilisis porttitor eget quam.
+    </p>
+    
+    <h2>Formadação estilo css</h2>
+    <p class="negrito">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum justo ac efficitur convallis. 
+        In vel molestie libero, in mollis odio. Nullam ac arcu eget erat aliquet facilisis porttitor eget quam.
+    </p>
+    <p class="italico">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum justo ac efficitur convallis. 
+        In vel molestie libero, in mollis odio. Nullam ac arcu eget erat aliquet facilisis porttitor eget quam.
+    </p>
+    <p class="underline">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum justo ac efficitur convallis. 
+        In vel molestie libero, in mollis odio. Nullam ac arcu eget erat aliquet facilisis porttitor eget quam.
+    </p>
+    <p class="linhacruzada">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum justo ac efficitur convallis. 
+        In vel molestie libero, in mollis odio. Nullam ac arcu eget erat aliquet facilisis porttitor eget quam.
+    </p>
+    <p class="linhaCima">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum justo ac efficitur convallis. 
+        In vel molestie libero, in mollis odio. Nullam ac arcu eget erat aliquet facilisis porttitor eget quam.
+    </p>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div/Span</title>
+    <style>
+        #topo{
+            background-color: aqua;
+        }
+
+        #principal{
+            background: red;
+        }
+
+        #rodape{
+            background: green;
+        }
+
+        #assinatura{
+            background: yellow;
+        }
+
+        .produto{
+            background: gray;
+            margin: 10px;
+        }
+
+        .borda{
+            /*bordas são composta da sequinte forma: espessura formado cor*/
+            border: 10px solid red;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tag div serve para divisir as areas do site, 
+        ela é um elemento do tipo block, quer dizer que ocupa todo o espaço da tela, 
+        como se tivesse uma largura de 100% -->
+    <div id="topo">
+        <img src="https://logodownload.org/wp-content/uploads/2014/04/amazon-logo.png" alt="logo" width="200">
+        <ul>
+            <li> <a href="link.html">Home</a></li>
+            <li>Contato</li>
+            <li>Sobre</li>
+        </ul>
+    </div>
+
+    <div id="principal">
+        <div class="produto">
+            produto1
+        </div>
+        <div class="produto">
+            produto2
+        </div>
+        <div class="produto">
+            produto3
+        </div>
+    </div>
+
+    <!-- span assim como o div serve para separar partes da página, mas diferente dele o span é do tipo inline.
+    Ele é mais ultilizado para marcar uma parte de um texto ou de um documento -->
+    </body>
+    <div id="rotape">
+        Todos os direitos reservados a <span id="assinatura">João Victor</span>
+    </div>
+</body>
+</html>

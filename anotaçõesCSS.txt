@@ -1,0 +1,78 @@
+CSS quer dizer folha de estilo em cascada, é feito para maior edição em uma página web.
+
+O CSS3 pode ser feito de 3 formas, 
+    inline-style(dentro de uma tag), internal-style(dentro do head) ou em um arquivo externo.
+    Um seletor é ultilizado para modificar uma tag de forma geral, sempre que ela aparecer ela terá essa caracteristica
+    a não ser que uma classe ou id diga o contrario.
+    seletor {                       p{
+        propriedade: valor;             color: blue;     
+    }                               }
+
+No CSS existe classes e IDs, classes é uma caracteristica que se repete, como o sexo masculino
+e a id é uma caracteristica unica como o CPF.
+
+    Para criar uma classe:
+    .nome {
+    }
+    Para criar um ID:
+    #nome {
+    }
+
+No HTML5 existe duas tags muito ultilizadas junto com o CSS, que são o <div> e o <span>,
+a diferença entre elas é que o div é do tipo block e o span é inlane
+
+Bordas:
+    Podem ser configuradas de 10 maneiras:
+        solid, dotted, dashed, double, groove, ridge, inset, outset, none, hidden e misturada
+
+Cores:
+    As cores podem ser escolhidas de 2 maneiras, com o nome(red) ou com um código (#6A1D1D, rgb(185, 23, 23)...)
+    Para achar a cor que deseje vc pode ou ultilizar o sistema de cores so VSCode ou procurar na web com: "Cores HTML5"
+
+Fontes:
+    Para modificar a fonte do texto é ultilizado font-family, 
+    é aconselhavel por pelo menos uma fonte comum como serif para o caso de se 
+    o navegador do usuario não aceitar a fonte que escolheu ela irá mudar para a outra.
+    EX:
+    font-family: "Paladino Linotype", "Book Antigua", serif;
+
+Tamanho:
+    Há 3 medidas de Tamanho em HTML5/CSS3: px(pixel), em(relativa), %(relativa)
+    em e % são relativos ao container paí, 
+    no caso de não haver nenhum container os modificando o container pai é o body.
+    Em um site o default é:
+    16px
+    1em
+    100%(Isso para textos)
+
+Estilos de texto:
+    Assim como no HTML, no CSS tambem é possivel modificar o estilo do texto(negrito, italico...)
+    Isso é recomentado somente quando é uma questão estetíca,
+    quando realmente tem um motivo para uma parte do texto estar em algum estilo
+    é recomentavel a ultilização das tags HTML
+    
+    Deixar em negrito:
+        font-weight: bold, normal, 100 ate 900
+    Deixar em italico:
+        font-style: italic;
+    Deixar com underline:
+        text-decoration: underline;
+    Deixar com uma linha no meio do texto:
+        text-decoration: line-through;
+    Deixar com uma linha acima do texto:
+        text-decoration: overline;
+
+Background:
+    Vc pode colocar uma imagem como Background com:
+        background-image: url("");
+    Com size vc pode mudar o tamanho
+        background-size: 10em;
+    Por default ela vai ser repetir, vc pode mudar isso ou modificar a repedição
+        background-repeat: no-repeat/repeat-x/repeat-y/repeat(default);    
+    Com attachment vc pode descidir se a imagem muda de posição ou não quanto o usuario sobe ou desce a página
+        background-attachment: fixed;
+    Voce pode deixar a imagem em uma posição especifica da tela 
+        background-position: center bottom;
+    Em vez de separado, vc pode juntar tudo:
+        background: url("https://www.pngmart.com/files/15/Falling-Money-PNG-Transparent-HD-Photo.png")
+             no-repeat fixed green center bottom;

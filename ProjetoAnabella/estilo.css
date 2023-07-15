@@ -1,0 +1,50 @@
+body{
+    background: url("https://img.freepik.com/vetores-gratis/fundo-de-polca-vector-com-pequenos-pontos_1017-13972.jpg?w=2000");
+    background-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(21, 21, 78);
+    padding: 5px;
+}
+
+h2{
+    color: rgb(31, 29, 29);
+    font-size: 1.2em;
+    /*font-family: "Copperplate";*/
+}
+
+.foto{
+    width: 600px;
+    border: 10px solid #888888;
+}
+
+#pagina{
+    width: 900px;
+    background: #888888;
+}
+
+#logo{
+    height: 400px;
+    width: 100%;
+}
+
+#menu{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#principal{
+    background: white;
+    padding: 8px;
+}
+
+#rodape{
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}

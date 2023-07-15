@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas</title>
+    <style>
+        .bordaSolid{
+            /*bordas são composta da sequinte forma: espessura formado cor*/
+            border: 10px solid red;
+        }
+        .bordaDotted{
+            /* */
+            border: 10px dotted blue;
+        }
+        .bordaDashed{
+            /* */
+            border: 10px dashed green;
+        }
+        .bordaDouble{
+            /* */
+            border: 10px double yellow;
+        }
+        .bordaGroove{
+            /* */
+            border: 10px groove gray;
+        }
+        .bordaRidge{
+            /* */
+            border: 10px ridge blueviolet;
+        }
+        .bordaInset{
+            /* */
+            border: 10px inset crimson;
+        }
+        .bordaOutset{
+            /* */
+            border: 10px outset cyan;
+        }
+        .bordaNone{
+            /* */
+            border: 10px none red;
+        }
+        .bordaHidden{
+            /* */
+            border: 10px hidden red;
+        }
+        .bordaMixed{
+            /* Ao deixar o atributo mais especifico é possivel misturar os efeitos 
+            O efeito afeta cada lado começando do topo no sentido horario*/
+            border-color: red blue black green;
+            border-width: 10px 20px;
+            border-style: dotted double solid;
+        }
+    </style>
+</head>
+<body>
+    <h2>Bordas</h2>
+    <div class="bordaSolid">
+        Borda Solida
+    </div>
+    <div class="bordaDotted">
+        Borda de bolas
+    </div>
+    <div class="bordaDashed">
+        Borda com traços
+    </div>
+    <div class="bordaDouble">
+        Borda de duas linhas
+    </div>
+    <div class="bordaGroove">
+        Borda com efeito 3D
+    </div>
+    <div class="bordaRidge">
+        Borda com efeito 3D
+    </div>
+    <div class="bordaInset">
+        Borda com efeito 3D
+    </div>
+    <div class="bordaOutset">
+        Borda com efeito 3D
+    </div>
+    <div class="bordaNone">
+        Sem borda Borda
+    </div>
+    <div class="bordaHidden">
+        Em teoria esta escondida
+    </div>
+    <div class="bordaMixed">
+        Borda Misturada
+    </div>
+    
+</body>
+</html>
